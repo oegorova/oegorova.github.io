@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,400;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+section {
+    display: flex;
+    /*align-items: center;*/
+    justify-content:center;
+}
+
+.content {
+    max-width: 50rem;
+}
+
+.section-one .about_me {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    letter-spacing: .2rem;
+}
+
+.section-one h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 5.2rem;
+    overflow-wrap: break-word;
+    font-style: italic;
+}
+
+h1 span {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.section-one p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
