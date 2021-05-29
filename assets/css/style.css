@@ -119,3 +119,7 @@ h1 span {
     line-height: 3rem;
     letter-spacing: .2rem;
 }
+
+.person-impressum span {
+    display: block;
+}
