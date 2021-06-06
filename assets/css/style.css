@@ -124,6 +124,10 @@ h1 span {
     display: block;
 }
 
-.figcaption{
+.figcaption {
     font-size: 3rem;
+}
+
+.info span {
+    font-weight: bold;
 }
