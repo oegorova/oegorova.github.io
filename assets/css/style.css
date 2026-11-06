@@ -52,3 +52,8 @@ footer { border-top: 1px solid var(--line); margin-top: 12px; }
 
 .site-credit { font-size: 14px; }
 .site-credit a { font-weight: 600; }
+
+.language-switch { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.language-switch a { display: inline-block; padding: 6px 14px; border: 1px solid var(--line); border-radius: 8px; text-decoration: none; font-size: 15px; }
+.language-switch a[aria-current="page"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.language-switch a:hover { text-decoration: underline; }
