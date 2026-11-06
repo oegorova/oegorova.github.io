@@ -49,3 +49,6 @@ footer { border-top: 1px solid var(--line); margin-top: 12px; }
 
 .profile { margin-top: 48px; }
 .contact a { overflow-wrap: anywhere; }
+
+.site-credit { font-size: 14px; }
+.site-credit a { font-weight: 600; }
